@@ -6507,7 +6507,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.2:
+prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -6688,7 +6688,7 @@ react-dev-utils@^6.0.4:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.5.2:
+react-dom@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.5.2.tgz#b69ee47aa20bab5327b2b9d7c1fe2a30f2cfa9d7"
   dependencies:
@@ -6754,7 +6754,14 @@ react-scripts@2.0.4:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.5.2:
+react-ziggeo@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-ziggeo/-/react-ziggeo-3.1.0.tgz#4b04c098f66aa661cb6bc2027a7be376bb8b0651"
+  dependencies:
+    prop-types "^15.6.0"
+    ziggeo-client-sdk "2.31.2"
+
+react@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"
   dependencies:
@@ -8519,3 +8526,7 @@ yargs@^11.0.0:
     which-module "^2.0.0"
     y18n "^3.2.1"
     yargs-parser "^9.0.2"
+
+ziggeo-client-sdk@2.31.2:
+  version "2.31.2"
+  resolved "https://registry.yarnpkg.com/ziggeo-client-sdk/-/ziggeo-client-sdk-2.31.2.tgz#f8af77d569d0f68aceb73edd6407028e6fd2503e"
